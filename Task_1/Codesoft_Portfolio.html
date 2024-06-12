@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkata Vamsi Avisa - Portfolio</title>
+    <link rel="stylesheet" href="CSS_Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Venkata Vamsi Avisa</h1>
+        <p>Full Stack Software Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Hi all, I'm Venkata Vamsi Avisa <span role="img" aria-label="wave">👋</span></h2>
+                <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="button-container">
+                    <a href="#contact">Contact Me</a>
+                    <a href="My_Resume_Test_Sigma.pdf" download>See My Resume</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="Image2.jpg" alt="Venkata Vamsi Avisa">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="card">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+                <span class="additional-text">A versatile programming language used for web development.</span>
+            </div>
+            <div class="card">
+                <i class="fab fa-react"></i>
+                <p>Reactjs</p>
+                <span class="additional-text">A JavaScript library for building user interfaces.</span>
+            </div>
+            <div class="card">
+                <i class="fab fa-node-js"></i>
+                <p>Nodejs</p>
+                <span class="additional-text">A JavaScript runtime built on Chrome's V8 engine.</span>
+            </div>
+            <div class="card">
+                <i class="fab fa-react"></i>
+                <p>React Native</p>
+                <span class="additional-text">A framework for building native apps using React.</span>
+            </div>
+            <div class="card">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+                <span class="additional-text">The standard markup language for creating web pages.</span>
+            </div>
+            <div class="card">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+                <span class="additional-text">A style sheet language used for describing the presentation of a document.</span>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="Project.png" alt="Project 1">
+                <div class="project-details">
+                    <h3>Hotel Website</h3>
+                    <p class="toggle-description">Hover to show description</p>
+                    <p class="description">Hotel Website can show the room and facilities and types of rooms and the atmosphere.</p>
+                    <div class="project-buttons">
+                        <button onclick="viewProject('Project 1')">View Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project2">
+                <img src="Screenshot (283).png" alt="Project 2">
+                <div class="project-details">
+                    <h3>HTML Website</h3>
+                    <p class="toggle-description">Hover to show description</p>
+                    <p class="description">HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. </p>
+                    <div class="project-buttons">
+                        <button onclick="viewProject('Project 2')">View Project</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <div class="resume-wrapper">
+        <img src="Image3.jpg" class="resume-image" alt="Image2">
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <p>Download my resume:</p>
+                <div class="resume-download">
+                    <a href="My_Resume_Test_Sigma.pdf" download class="resume-link">
+                        <span>Download Resume (PDF)</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+
+    <div class="container">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function viewProject(index) {
+            // Replace this with your logic to navigate to the project page
+            alert('Viewing ' + index);
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Venkata Vamsi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
